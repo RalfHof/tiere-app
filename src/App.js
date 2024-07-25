@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<AnimalList />}/> 
         <Route path="/list" element={<AnimalList />}/> 
-        <Route path="/editAnimal" element={<EditAnimal />}/> 
+        <Route path="/editAnimal/:id" element={<EditAnimal />}/> 
         <Route path="/addAnimal" element={<AddAnimal />}/> 
 
       </Routes>
