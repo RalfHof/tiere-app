@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
+
 function AnimalList() {
   const [tiere, setTiere] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
@@ -26,6 +27,7 @@ function AnimalList() {
       console.error("Fehler beim löschen", error);
     }
   }
+
   function handleSearch(event) {
     setSearchTerm(event.target.value);
   }
@@ -62,4 +64,5 @@ function AnimalList() {
 }
 
 export default AnimalList;
+
 

@@ -4,6 +4,7 @@ import './App.css';
 import AnimalList from './components/AnimalList';
 import EditAnimal from './components/EditAnimal';
 import AddAnimal from './components/AddAnimal';
+//import SideBar from './components/SideBar';
 
 function App() {
   return (
